@@ -78,3 +78,16 @@ h1{
     height: 300px;
     border: 2px solid rgba(255, 0, 0, 0);
 }
+.dance{
+       position: fixed;
+    bottom: 0;
+    left: 10%;
+    
+    background-image: url('image/dance.gif');
+    background-size: cover;
+    background-position: center;
+    
+    width: 400px;  
+    height: 300px;
+    border: 2px solid rgba(255, 0, 0, 0);
+}
