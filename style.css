@@ -65,32 +65,36 @@ h1{
     font-size: 80px;
 }
 
-.bbq {
-    position: fixed;
-    bottom: 0;
-    left: 40%;
-    
-    background-image: url('image/bbq.png');
-    background-size: cover;
-    background-position: center;
-    
-    width: 400px;  
-    height: 300px;
-    border: 2px solid rgba(255, 0, 0, 0);
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  gap: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
 }
-.dance{
-       position: fixed;
-    bottom: 0;
-    left: 5%;
-    
-    background-image: url('image/dance.gif');
-    background-size: cover;
-    background-position: center;
 
-    width: 500px;  
-    height: 400px;
-    border: 2px solid rgba(255, 0, 0, 0);
+.bbq, .dance {
+  background-size: cover;
+  background-position: center;
+  border: 2px solid rgba(255, 0, 0, 0);
 }
+
+.dance {
+  background-image: url('image/dance.gif');
+  width: 300px;
+  height: 250px;
+}
+
+.bbq {
+  background-image: url('image/bbq.png');
+  width: 300px;
+  height: 250px;
+}
+
 .flag{
        position: fixed;
     top: 0;
@@ -103,4 +107,4 @@ h1{
     width: 300px;  
     height: 200px;
     border: 2px solid rgba(255, 0, 0, 0);
-}
+} 
