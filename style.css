@@ -5,8 +5,16 @@ body{
 }
 
 
-.bbq{
-      background-image: url('image/bbq.png');
-        background-size: cover;         
-        background-repeat: no-repeat;
-    bottom: 100px;}
+.bbq {
+    position: fixed;
+    bottom: 0;
+    left: 40%;
+    
+    background-image: url('image/bbq.png');
+    background-size: cover;
+    background-position: center;
+    
+    width: 400px;  
+    height: 300px;
+    border: 2px solid rgba(255, 0, 0, 0);
+}
