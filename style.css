@@ -1,0 +1,12 @@
+body{
+
+
+
+}
+
+
+.bbq{
+      background-image: url('image/bbq.png');
+        background-size: cover;         
+        background-repeat: no-repeat;
+    bottom: 100px;}
